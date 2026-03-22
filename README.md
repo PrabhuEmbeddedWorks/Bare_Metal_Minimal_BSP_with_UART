@@ -28,16 +28,6 @@ sudo apt update
 sudo apt install -y gcc-arm-none-eabi qemu-system-arm build-essential
 ```
 
-### Verify Installation
-
-```bash
-arm-none-eabi-gcc --version
-```
-
-```bash
-qemu-system-arm --version
-```
-
 ## 2. Create Project Directory
 
 ```bash
